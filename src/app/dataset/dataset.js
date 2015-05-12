@@ -1,58 +1,9 @@
 'use strict';
 
 var datasets = [{
-  name: 'Barley',
-  url: 'data/barley.json',
-  id: 'barley',
-
-},{
-  name: 'Cars',
-  url: 'data/cars.json',
-  id: 'cars'
-},{
-  name: 'Crimea',
-  url: 'data/crimea.json',
-  id: 'crimea'
-},{
-  name: 'Driving',
-  url: 'data/driving.json',
-  id: 'driving'
-},{
-  name: 'Iris',
-  url: 'data/iris.json',
-  id: 'iris'
-},{
-  name: 'Jobs',
-  url: 'data/jobs.json',
-  id: 'jobs'
-},{
-  name: 'Population',
-  url: 'data/population.json',
-  id: 'population'
-},{
-  name: 'Movies',
-  url: 'data/movies.json',
-  id: 'movies'
-},{
-  name: 'Birdstrikes',
-  url: 'data/birdstrikes.json',
-  id: 'birdstrikes'
-},{
-  name: 'Burtin',
-  url: 'data/burtin.json',
-  id: 'burtin'
-},{
-  name: 'Budget 2016',
-  url: 'data/budget.json',
-  id: 'budget'
-},{
-  name: 'Climate Normals',
-  url: 'data/climate.json',
-  id: 'climate'
-},{
-  name: 'Campaigns',
-  url: 'data/weball26.json',
-  id: 'weball26'
+  name: 'CreepingAlc',
+  url: 'data/ca-open-data-processed.json',
+  id: 'ca'
 }];
 
 function getNameMap(dataschema) {
@@ -69,7 +20,7 @@ angular.module('polestar')
     var countField = vl.field.count();
 
     Dataset.datasets = datasets;
-    Dataset.dataset = datasets[1];
+    Dataset.dataset = datasets[0];
     Dataset.dataschema = [];
     Dataset.dataschema.byName = {};
     Dataset.stats = {};

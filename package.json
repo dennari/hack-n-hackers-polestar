@@ -20,7 +20,9 @@
     "test": "gulp test"
   },
   "dependencies": {
-    "stream-series": "^0.1.1"
+    "lodash": "^3.8.0",
+    "stream-series": "^0.1.1",
+    "through2": "^0.6.5"
   },
   "devDependencies": {
     "browser-sync": "~1.7.1",
