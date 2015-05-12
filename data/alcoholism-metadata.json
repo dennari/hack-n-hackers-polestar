@@ -1,0 +1,2151 @@
+{
+  "description" : "<p>Perinteisesti alkoholismia on ajateltu mustavalkoisesti; \n  \tsitä joko on tai ei\tole alkoholisti. Tämä ajattelumalli tuskin\n  \tpalvelee meitä kovin hyvin. Koska meissä kaikissa asuu \n  \tpieni alkoholisti, relevantti kysymys ei ole se, <b>olemmeko</b> \n  \talkoholisteja vai ei. Sen sijaan tulee kysyä <b>minkälaisia</b> \n  \talkoholisteja olemme. \n  \t</p>\n  \t\n  \t<p>\n\tTestimaan Hiipivä alkoholisti -testi tarkastelee alkoholismia\n\ttästä näkökulmasta ja auttaa sinua ymmärtämään, kuinka läheinen\n\tsuhde sinulla on rakkaaseen ystävääsi alkoholiin.\n\t</p>",
+  "ogDescription" : "Testimaan Hiipivä alkoholisti -testi tarkastelee alkoholismia\n\tei-mustavalkoisesta näkökulmasta ja auttaa ymmärtämään, kuinka läheinen\n\tsuhde sinulla on rakkaaseen ystävääsi alkoholiin.",
+  "maintenanceMsg" : null,
+  "higher" : "saa sinua matalamman tuloksen",
+  "lower" : "saa sinua korkeamman tuloksen",
+  "id" : "ca",
+  "tasks" : [ {
+    "id" : "1",
+    "image" : null,
+    "question" : "Milloin sinulla on viimeksi ollut hauskaa ilman viinaa?",
+    "questionMoreInfo" : null,
+    "type" : "RADIO",
+    "countToResult" : true,
+    "showInStats" : true,
+    "showInTest" : true,
+    "min" : null,
+    "max" : null,
+    "initialValue" : null,
+    "minText" : null,
+    "maxText" : null,
+    "showSliderValue" : true,
+    "localizedScale" : null,
+    "options" : [ {
+      "text" : "Tänään",
+      "id" : "1",
+      "min" : null,
+      "max" : null,
+      "image" : null,
+      "stats" : null
+    }, {
+      "text" : "Viimeisen 3 päivän aikana",
+      "id" : "2",
+      "min" : null,
+      "max" : null,
+      "image" : null,
+      "stats" : null
+    }, {
+      "text" : "Viimeisen viikon aikana",
+      "id" : "3",
+      "min" : null,
+      "max" : null,
+      "image" : null,
+      "stats" : null
+    }, {
+      "text" : "Viimeisen kahden viikon aikana",
+      "id" : "4",
+      "min" : null,
+      "max" : null,
+      "image" : null,
+      "stats" : null
+    }, {
+      "text" : "Viimeisen kuukauden aikana",
+      "id" : "5",
+      "min" : null,
+      "max" : null,
+      "image" : null,
+      "stats" : null
+    }, {
+      "text" : "Viimeisen kuuden kuukauden aikana",
+      "id" : "6",
+      "min" : null,
+      "max" : null,
+      "image" : null,
+      "stats" : null
+    }, {
+      "text" : "Siitä on enemmän kuin 6 kuukautta",
+      "id" : "7",
+      "min" : null,
+      "max" : null,
+      "image" : null,
+      "stats" : null
+    }, {
+      "text" : "En muista",
+      "id" : "8",
+      "min" : null,
+      "max" : null,
+      "image" : null,
+      "stats" : null
+    } ]
+  }, {
+    "id" : "2",
+    "image" : null,
+    "question" : "Valitse syyt, joiden takia juot",
+    "questionMoreInfo" : null,
+    "type" : "MULTISELECT",
+    "countToResult" : true,
+    "showInStats" : true,
+    "showInTest" : true,
+    "min" : null,
+    "max" : null,
+    "initialValue" : null,
+    "minText" : null,
+    "maxText" : null,
+    "showSliderValue" : true,
+    "localizedScale" : null,
+    "options" : [ {
+      "text" : "Ihanan nousuhumalan tunteen tavoittelu",
+      "id" : "1",
+      "min" : null,
+      "max" : null,
+      "image" : null,
+      "stats" : null
+    }, {
+      "text" : "Hauskojen asioiden muuttaminen vielä hauskemmiksi",
+      "id" : "2",
+      "min" : null,
+      "max" : null,
+      "image" : null,
+      "stats" : null
+    }, {
+      "text" : "Maun takia",
+      "id" : "3",
+      "min" : null,
+      "max" : null,
+      "image" : null,
+      "stats" : null
+    }, {
+      "text" : "Ollakseni sosiaalisempi tai viihdyttävämpi",
+      "id" : "4",
+      "min" : null,
+      "max" : null,
+      "image" : null,
+      "stats" : null
+    }, {
+      "text" : "Työnteko tai opiskelu tuntuu toisinaan sujuvan pienessä hiprakassa paremmin",
+      "id" : "5",
+      "min" : null,
+      "max" : null,
+      "image" : null,
+      "stats" : null
+    }, {
+      "text" : "Lievittääkseni stressiä",
+      "id" : "6",
+      "min" : null,
+      "max" : null,
+      "image" : null,
+      "stats" : null
+    }, {
+      "text" : "Lievittääkseni, pakoillakseni tai kontrolloidakseni negatiivisia tunteita, kuten ahdistusta tai tyhjyyden tunnetta",
+      "id" : "7",
+      "min" : null,
+      "max" : null,
+      "image" : null,
+      "stats" : null
+    }, {
+      "text" : "Jotta tuntisin oloni normaaliksi",
+      "id" : "8",
+      "min" : null,
+      "max" : null,
+      "image" : null,
+      "stats" : null
+    }, {
+      "text" : "Terveyshyötyjen vuoksi",
+      "id" : "9",
+      "min" : null,
+      "max" : null,
+      "image" : null,
+      "stats" : null
+    }, {
+      "text" : "Kipujen lievittämiseksi",
+      "id" : "10",
+      "min" : null,
+      "max" : null,
+      "image" : null,
+      "stats" : null
+    } ]
+  }, {
+    "id" : "3",
+    "image" : null,
+    "question" : "Kuinka monta kertaa olet krapulassa tai morkkiksessa \n   \t\t\tpäättänyt vähentää juomista tai lopettaa juomisen?",
+    "questionMoreInfo" : "Myös päätökset, joiden et alun alkaenkaan uskonut pitävän, lasketaan.",
+    "type" : "RADIO",
+    "countToResult" : true,
+    "showInStats" : false,
+    "showInTest" : false,
+    "min" : null,
+    "max" : null,
+    "initialValue" : null,
+    "minText" : null,
+    "maxText" : null,
+    "showSliderValue" : true,
+    "localizedScale" : null,
+    "options" : [ {
+      "text" : "Kerran",
+      "id" : "1",
+      "min" : null,
+      "max" : null,
+      "image" : null,
+      "stats" : null
+    }, {
+      "text" : "Muutaman kerran",
+      "id" : "2",
+      "min" : null,
+      "max" : null,
+      "image" : null,
+      "stats" : null
+    }, {
+      "text" : "Kymmeniä kertoja",
+      "id" : "3",
+      "min" : null,
+      "max" : null,
+      "image" : null,
+      "stats" : null
+    }, {
+      "text" : "Yli sata kertaa",
+      "id" : "4",
+      "min" : null,
+      "max" : null,
+      "image" : null,
+      "stats" : null
+    } ]
+  }, {
+    "id" : "25",
+    "image" : null,
+    "question" : "Kuinka monta kertaa olet krapulassa tai morkkiksessa \n   \t\t\tpäättänyt vähentää juomista tai lopettaa juomisen?",
+    "questionMoreInfo" : "Myös päätökset, joiden et alun alkaenkaan uskonut pitävän, lasketaan.",
+    "type" : "RADIO",
+    "countToResult" : true,
+    "showInStats" : false,
+    "showInTest" : true,
+    "min" : null,
+    "max" : null,
+    "initialValue" : null,
+    "minText" : null,
+    "maxText" : null,
+    "showSliderValue" : true,
+    "localizedScale" : null,
+    "options" : [ {
+      "text" : "En kertaakaan",
+      "id" : "1",
+      "min" : null,
+      "max" : null,
+      "image" : null,
+      "stats" : null
+    }, {
+      "text" : "Kerran",
+      "id" : "2",
+      "min" : null,
+      "max" : null,
+      "image" : null,
+      "stats" : null
+    }, {
+      "text" : "Muutaman kerran",
+      "id" : "3",
+      "min" : null,
+      "max" : null,
+      "image" : null,
+      "stats" : null
+    }, {
+      "text" : "Kymmeniä kertoja",
+      "id" : "4",
+      "min" : null,
+      "max" : null,
+      "image" : null,
+      "stats" : null
+    }, {
+      "text" : "Yli sata kertaa",
+      "id" : "5",
+      "min" : null,
+      "max" : null,
+      "image" : null,
+      "stats" : null
+    } ]
+  }, {
+    "id" : "4",
+    "image" : null,
+    "question" : "Onko viimeisen vuoden aikana mennyt juodessa muisti",
+    "questionMoreInfo" : null,
+    "type" : "RADIO",
+    "countToResult" : true,
+    "showInStats" : true,
+    "showInTest" : true,
+    "min" : null,
+    "max" : null,
+    "initialValue" : null,
+    "minText" : null,
+    "maxText" : null,
+    "showSliderValue" : true,
+    "localizedScale" : null,
+    "options" : [ {
+      "text" : "Toki",
+      "id" : "1",
+      "min" : null,
+      "max" : null,
+      "image" : null,
+      "stats" : null
+    }, {
+      "text" : "Kyllä, mutta minulla menee tosi helposti. Jo tosi vähästä juomisesta!",
+      "id" : "2",
+      "min" : null,
+      "max" : null,
+      "image" : null,
+      "stats" : null
+    }, {
+      "text" : "Ei",
+      "id" : "3",
+      "min" : null,
+      "max" : null,
+      "image" : null,
+      "stats" : null
+    }, {
+      "text" : "Ei, eikä ole ikinä mennyt",
+      "id" : "4",
+      "min" : null,
+      "max" : null,
+      "image" : null,
+      "stats" : null
+    } ]
+  }, {
+    "id" : "5",
+    "image" : null,
+    "question" : "Ketkä on viimeisen vuoden aikana huomauttanut sinulle juomisesta?",
+    "questionMoreInfo" : null,
+    "type" : "MULTISELECT",
+    "countToResult" : true,
+    "showInStats" : true,
+    "showInTest" : true,
+    "min" : null,
+    "max" : null,
+    "initialValue" : null,
+    "minText" : null,
+    "maxText" : null,
+    "showSliderValue" : true,
+    "localizedScale" : null,
+    "options" : [ {
+      "text" : "Vanhemmat",
+      "id" : "1",
+      "min" : null,
+      "max" : null,
+      "image" : null,
+      "stats" : null
+    }, {
+      "text" : "Kumppani",
+      "id" : "2",
+      "min" : null,
+      "max" : null,
+      "image" : null,
+      "stats" : null
+    }, {
+      "text" : "Juomakaverit",
+      "id" : "3",
+      "min" : null,
+      "max" : null,
+      "image" : null,
+      "stats" : null
+    }, {
+      "text" : "Työnantaja",
+      "id" : "4",
+      "min" : null,
+      "max" : null,
+      "image" : null,
+      "stats" : null
+    }, {
+      "text" : "Pizzalähetti",
+      "id" : "5",
+      "min" : null,
+      "max" : null,
+      "image" : null,
+      "stats" : null
+    }, {
+      "text" : "Koirani",
+      "id" : "6",
+      "min" : null,
+      "max" : null,
+      "image" : null,
+      "stats" : null
+    }, {
+      "text" : "Joku muu",
+      "id" : "7",
+      "min" : null,
+      "max" : null,
+      "image" : null,
+      "stats" : null
+    } ]
+  }, {
+    "id" : "6",
+    "image" : null,
+    "question" : "Valitse oireet, joita sinulla on ollut runsaan \n        alkoholinkäytön (hetkellisen) lopettamisen jälkeen.",
+    "questionMoreInfo" : "Viimeisen kahden vuoden aikana.",
+    "type" : "MULTISELECT",
+    "countToResult" : true,
+    "showInStats" : true,
+    "showInTest" : true,
+    "min" : null,
+    "max" : null,
+    "initialValue" : null,
+    "minText" : null,
+    "maxText" : null,
+    "showSliderValue" : true,
+    "localizedScale" : null,
+    "options" : [ {
+      "text" : "Oksensin",
+      "id" : "1",
+      "min" : null,
+      "max" : null,
+      "image" : null,
+      "stats" : null
+    }, {
+      "text" : "Tunsin sydämeni hakkavan",
+      "id" : "2",
+      "min" : null,
+      "max" : null,
+      "image" : null,
+      "stats" : null
+    }, {
+      "text" : "Kädet tärisivät",
+      "id" : "3",
+      "min" : null,
+      "max" : null,
+      "image" : null,
+      "stats" : null
+    }, {
+      "text" : "Hikoilin kylmää hikeä",
+      "id" : "4",
+      "min" : null,
+      "max" : null,
+      "image" : null,
+      "stats" : null
+    }, {
+      "text" : "Pelkäsin, että kuolen",
+      "id" : "5",
+      "min" : null,
+      "max" : null,
+      "image" : null,
+      "stats" : null
+    }, {
+      "text" : "Toivoin, että kuolen",
+      "id" : "6",
+      "min" : null,
+      "max" : null,
+      "image" : null,
+      "stats" : null
+    }, {
+      "text" : "Minulla oli aistiharhoja (hallusinaatioita)",
+      "id" : "7",
+      "min" : null,
+      "max" : null,
+      "image" : null,
+      "stats" : null
+    }, {
+      "text" : "Kuulin ääniä",
+      "id" : "8",
+      "min" : null,
+      "max" : null,
+      "image" : null,
+      "stats" : null
+    }, {
+      "text" : "Tunsin pienten hyönteisten ryömivän ihollani",
+      "id" : "9",
+      "min" : null,
+      "max" : null,
+      "image" : null,
+      "stats" : null
+    }, {
+      "text" : "Työ- tai ajattelukyky palasi normaaliksi vasta usean \n      \tpäivän päästä juomisen lopettamisesta.",
+      "id" : "10",
+      "min" : null,
+      "max" : null,
+      "image" : null,
+      "stats" : null
+    } ]
+  }, {
+    "id" : "7",
+    "image" : null,
+    "question" : "Valitse ne asiat, joista olisit valmis luopumaan kokonaan voidaksesi jatkaa alkoholin käyttöä.",
+    "questionMoreInfo" : "Älä valitse sellaisia asioita, jotka eivät muutenkaan kuulu elämääsi.",
+    "type" : "MULTISELECT",
+    "countToResult" : true,
+    "showInStats" : true,
+    "showInTest" : true,
+    "min" : null,
+    "max" : null,
+    "initialValue" : null,
+    "minText" : null,
+    "maxText" : null,
+    "showSliderValue" : true,
+    "localizedScale" : null,
+    "options" : [ {
+      "text" : "Lihansyönti",
+      "id" : "1",
+      "min" : null,
+      "max" : null,
+      "image" : null,
+      "stats" : null
+    }, {
+      "text" : "Facebook ja muu sosiaalinen media",
+      "id" : "2",
+      "min" : null,
+      "max" : null,
+      "image" : null,
+      "stats" : null
+    }, {
+      "text" : "Juusto",
+      "id" : "3",
+      "min" : null,
+      "max" : null,
+      "image" : null,
+      "stats" : null
+    }, {
+      "text" : "Seksi",
+      "id" : "4",
+      "min" : null,
+      "max" : null,
+      "image" : null,
+      "stats" : null
+    }, {
+      "text" : "Uiminen",
+      "id" : "5",
+      "min" : null,
+      "max" : null,
+      "image" : null,
+      "stats" : null
+    }, {
+      "text" : "Pyöräily",
+      "id" : "6",
+      "min" : null,
+      "max" : null,
+      "image" : null,
+      "stats" : null
+    }, {
+      "text" : "Modernit älypuhelimet (voisit kuitenkin käyttää peruspuhelinta jolla voi soittaa ja lähettää tekstiviestejä)",
+      "id" : "7",
+      "min" : null,
+      "max" : null,
+      "image" : null,
+      "stats" : null
+    } ]
+  }, {
+    "id" : "8",
+    "image" : null,
+    "question" : "Milloin olet viimeksi viettänyt aikaa vapaa-ajallasi \n    \t\tjonkun kaverisi kanssa selvinpäin yli kahden tunnin ajan?",
+    "questionMoreInfo" : "Elämänkumppania ei lasketa.",
+    "type" : "RADIO",
+    "countToResult" : true,
+    "showInStats" : true,
+    "showInTest" : true,
+    "min" : null,
+    "max" : null,
+    "initialValue" : null,
+    "minText" : null,
+    "maxText" : null,
+    "showSliderValue" : true,
+    "localizedScale" : null,
+    "options" : [ {
+      "text" : "Viimeisen 3 päivän aikana",
+      "id" : "1",
+      "min" : null,
+      "max" : null,
+      "image" : null,
+      "stats" : null
+    }, {
+      "text" : "Viimeisen viikon aikana",
+      "id" : "2",
+      "min" : null,
+      "max" : null,
+      "image" : null,
+      "stats" : null
+    }, {
+      "text" : "Viimeisen kahden viikon aikana",
+      "id" : "3",
+      "min" : null,
+      "max" : null,
+      "image" : null,
+      "stats" : null
+    }, {
+      "text" : "Viimeisen kuukauden aikana",
+      "id" : "4",
+      "min" : null,
+      "max" : null,
+      "image" : null,
+      "stats" : null
+    }, {
+      "text" : "Viimeisen kuuden kuukauden aikana",
+      "id" : "5",
+      "min" : null,
+      "max" : null,
+      "image" : null,
+      "stats" : null
+    }, {
+      "text" : "Siitä on yli kuusi kuukautta",
+      "id" : "6",
+      "min" : null,
+      "max" : null,
+      "image" : null,
+      "stats" : null
+    } ]
+  }, {
+    "id" : "9",
+    "image" : null,
+    "question" : "Ota kaapistasi jokin viinapullo ja haista sitä. Tekeeko mieli juoda?",
+    "questionMoreInfo" : null,
+    "type" : "RADIO",
+    "countToResult" : true,
+    "showInStats" : true,
+    "showInTest" : true,
+    "min" : null,
+    "max" : null,
+    "initialValue" : null,
+    "minText" : null,
+    "maxText" : null,
+    "showSliderValue" : true,
+    "localizedScale" : null,
+    "options" : [ {
+      "text" : "Ei ole nyt teräviä lähettyvillä",
+      "id" : "1",
+      "min" : null,
+      "max" : null,
+      "image" : null,
+      "stats" : null
+    }, {
+      "text" : "Juu, mutta teki mieli jo ennen haistamista",
+      "id" : "2",
+      "min" : null,
+      "max" : null,
+      "image" : null,
+      "stats" : null
+    }, {
+      "text" : "Juu ja otinkin jo huikan",
+      "id" : "3",
+      "min" : null,
+      "max" : null,
+      "image" : null,
+      "stats" : null
+    }, {
+      "text" : "Kyllä",
+      "id" : "4",
+      "min" : null,
+      "max" : null,
+      "image" : null,
+      "stats" : null
+    }, {
+      "text" : "Ei tässä krapulassa",
+      "id" : "5",
+      "min" : null,
+      "max" : null,
+      "image" : null,
+      "stats" : null
+    }, {
+      "text" : "Ei tee",
+      "id" : "6",
+      "min" : null,
+      "max" : null,
+      "image" : null,
+      "stats" : null
+    } ]
+  }, {
+    "id" : "10",
+    "image" : null,
+    "question" : "Oletko viime vuoden aikana sammunut alkoholin käytön seurauksena?",
+    "questionMoreInfo" : null,
+    "type" : "RADIO",
+    "countToResult" : true,
+    "showInStats" : true,
+    "showInTest" : true,
+    "min" : null,
+    "max" : null,
+    "initialValue" : null,
+    "minText" : null,
+    "maxText" : null,
+    "showSliderValue" : true,
+    "localizedScale" : null,
+    "options" : [ {
+      "text" : "Kyllä",
+      "id" : "1",
+      "min" : null,
+      "max" : null,
+      "image" : null,
+      "stats" : null
+    }, {
+      "text" : "En",
+      "id" : "2",
+      "min" : null,
+      "max" : null,
+      "image" : null,
+      "stats" : null
+    }, {
+      "text" : "En, mutta kaverit väittää että kerran sammuin \n    \tvaikka oikeasti päätin vaan mennä nukkumaan",
+      "id" : "3",
+      "min" : null,
+      "max" : null,
+      "image" : null,
+      "stats" : null
+    } ]
+  }, {
+    "id" : "11",
+    "image" : null,
+    "question" : "Tyypillisessä krapulassa",
+    "questionMoreInfo" : "Sinun ei tarvitse välttämättä valita yhtään vaihtoehtoa.",
+    "type" : "MULTISELECT",
+    "countToResult" : true,
+    "showInStats" : true,
+    "showInTest" : true,
+    "min" : null,
+    "max" : null,
+    "initialValue" : null,
+    "minText" : null,
+    "maxText" : null,
+    "showSliderValue" : true,
+    "localizedScale" : null,
+    "options" : [ {
+      "text" : "Otan tasoittavan pehmentämään sitä",
+      "id" : "1",
+      "min" : null,
+      "max" : null,
+      "image" : null,
+      "stats" : null
+    }, {
+      "text" : "Otan useita tasoittavia helpottamaan sitä",
+      "id" : "2",
+      "min" : null,
+      "max" : null,
+      "image" : null,
+      "stats" : null
+    }, {
+      "text" : "Otan reseptivapaita särkylääkkeitä helpottamaan sitä",
+      "id" : "3",
+      "min" : null,
+      "max" : null,
+      "image" : null,
+      "stats" : null
+    }, {
+      "text" : "Otan reseptilääkkeitä helpottamaan sitä",
+      "id" : "4",
+      "min" : null,
+      "max" : null,
+      "image" : null,
+      "stats" : null
+    } ]
+  }, {
+    "id" : "12",
+    "image" : null,
+    "question" : "Oletko huomannut, että et pysty enää juomaan niin paljon kuin joskus ennen?",
+    "questionMoreInfo" : null,
+    "type" : "RADIO",
+    "countToResult" : true,
+    "showInStats" : true,
+    "showInTest" : true,
+    "min" : null,
+    "max" : null,
+    "initialValue" : null,
+    "minText" : null,
+    "maxText" : null,
+    "showSliderValue" : true,
+    "localizedScale" : null,
+    "options" : [ {
+      "text" : "Kyllä",
+      "id" : "1",
+      "min" : null,
+      "max" : null,
+      "image" : null,
+      "stats" : null
+    }, {
+      "text" : "En",
+      "id" : "2",
+      "min" : null,
+      "max" : null,
+      "image" : null,
+      "stats" : null
+    }, {
+      "text" : "En, päinvastoin!",
+      "id" : "3",
+      "min" : null,
+      "max" : null,
+      "image" : null,
+      "stats" : null
+    }, {
+      "text" : "Ei ole vielä selvinnyt, kuinka paljon pystyyn juomaan",
+      "id" : "4",
+      "min" : null,
+      "max" : null,
+      "image" : null,
+      "stats" : null
+    }, {
+      "text" : "En, mutta krapulat ovat pahempia",
+      "id" : "5",
+      "min" : null,
+      "max" : null,
+      "image" : null,
+      "stats" : null
+    } ]
+  }, {
+    "id" : "13",
+    "image" : null,
+    "question" : "Kun olet juomassa kavereiden kanssa, käytkö toisinaan\n    \t\tjuomassa viinaa salaa muilta?",
+    "questionMoreInfo" : null,
+    "type" : "RADIO",
+    "countToResult" : true,
+    "showInStats" : true,
+    "showInTest" : true,
+    "min" : null,
+    "max" : null,
+    "initialValue" : null,
+    "minText" : null,
+    "maxText" : null,
+    "showSliderValue" : true,
+    "localizedScale" : null,
+    "options" : [ {
+      "text" : "Kyllä",
+      "id" : "1",
+      "min" : null,
+      "max" : null,
+      "image" : null,
+      "stats" : null
+    }, {
+      "text" : "En",
+      "id" : "2",
+      "min" : null,
+      "max" : null,
+      "image" : null,
+      "stats" : null
+    }, {
+      "text" : "En, mutta juon joskus salaa vettä",
+      "id" : "3",
+      "min" : null,
+      "max" : null,
+      "image" : null,
+      "stats" : null
+    } ]
+  }, {
+    "id" : "14",
+    "image" : null,
+    "question" : "Koetko, että viinan hyödyt ylittävät\n    \tsen sinulle tuomat haitat?",
+    "questionMoreInfo" : "Nykyisellä kulutuksellasi",
+    "type" : "RADIO",
+    "countToResult" : true,
+    "showInStats" : true,
+    "showInTest" : true,
+    "min" : null,
+    "max" : null,
+    "initialValue" : null,
+    "minText" : null,
+    "maxText" : null,
+    "showSliderValue" : true,
+    "localizedScale" : null,
+    "options" : [ {
+      "text" : "Kyllä",
+      "id" : "1",
+      "min" : null,
+      "max" : null,
+      "image" : null,
+      "stats" : null
+    }, {
+      "text" : "En",
+      "id" : "2",
+      "min" : null,
+      "max" : null,
+      "image" : null,
+      "stats" : null
+    }, {
+      "text" : "Tuntuu että kyllä, mutta olen juonut sen verran kauan,\n    \tettä en osaa enää sanoa millaista elämäni mahdollisesti olisi,\n    \tjos en joisi lainkaan viinaa",
+      "id" : "3",
+      "min" : null,
+      "max" : null,
+      "image" : null,
+      "stats" : null
+    } ]
+  }, {
+    "id" : "15",
+    "image" : null,
+    "question" : "Kuinka monta alkoholiannosta juot keskimäärin viikossa?",
+    "questionMoreInfo" : "Anna vastauksesi suomalaisissa alkoholi-annoksissa. 0,33&nbsp;dl pullo keskiolutta, 13&nbsp;cl lasillinen 12&nbsp;% viiniä, ja 38&nbsp;ml shotti 40&nbsp;% viinaa kukin vastaavat yhtä alkoholi-annosta.",
+    "type" : "SLIDER",
+    "countToResult" : true,
+    "showInStats" : true,
+    "showInTest" : true,
+    "min" : 0,
+    "max" : 2400,
+    "initialValue" : null,
+    "minText" : null,
+    "maxText" : null,
+    "showSliderValue" : true,
+    "localizedScale" : 12.0,
+    "options" : [ {
+      "text" : "0&ndash;3",
+      "id" : "1",
+      "min" : 0,
+      "max" : 36,
+      "image" : null,
+      "stats" : null
+    }, {
+      "text" : "4&ndash;12",
+      "id" : "2",
+      "min" : 36,
+      "max" : 144,
+      "image" : null,
+      "stats" : null
+    }, {
+      "text" : "13&ndash;26",
+      "id" : "3",
+      "min" : 144,
+      "max" : 312,
+      "image" : null,
+      "stats" : null
+    }, {
+      "text" : "27&ndash;52",
+      "id" : "4",
+      "min" : 312,
+      "max" : 624,
+      "image" : null,
+      "stats" : null
+    }, {
+      "text" : "53&ndash;100",
+      "id" : "5",
+      "min" : 624,
+      "max" : 1200,
+      "image" : null,
+      "stats" : null
+    }, {
+      "text" : "101&ndash;150",
+      "id" : "6",
+      "min" : 1200,
+      "max" : 1800,
+      "image" : null,
+      "stats" : null
+    }, {
+      "text" : "151&ndash;200",
+      "id" : "7",
+      "min" : 1800,
+      "max" : 2400,
+      "image" : null,
+      "stats" : null
+    } ]
+  }, {
+    "id" : "16",
+    "image" : null,
+    "question" : "Palkitseko itseäsi alkoholilla, esimerkiksi \n    \t\trasittavan työsuorituksen päätteeksi?",
+    "questionMoreInfo" : null,
+    "type" : "RADIO",
+    "countToResult" : true,
+    "showInStats" : true,
+    "showInTest" : true,
+    "min" : null,
+    "max" : null,
+    "initialValue" : null,
+    "minText" : null,
+    "maxText" : null,
+    "showSliderValue" : true,
+    "localizedScale" : null,
+    "options" : [ {
+      "text" : "Toki, mutta vain miedolla.",
+      "id" : "1",
+      "min" : null,
+      "max" : null,
+      "image" : null,
+      "stats" : null
+    }, {
+      "text" : "Kyllä, toisinaan myös terävillä.",
+      "id" : "2",
+      "min" : null,
+      "max" : null,
+      "image" : null,
+      "stats" : null
+    }, {
+      "text" : "En",
+      "id" : "3",
+      "min" : null,
+      "max" : null,
+      "image" : null,
+      "stats" : null
+    } ]
+  }, {
+    "id" : "19",
+    "image" : null,
+    "question" : "Mitä seuraavista \"asioista\" olet menettänyt alkoholin vuoksi?",
+    "questionMoreInfo" : null,
+    "type" : "MULTISELECT",
+    "countToResult" : true,
+    "showInStats" : true,
+    "showInTest" : true,
+    "min" : null,
+    "max" : null,
+    "initialValue" : null,
+    "minText" : null,
+    "maxText" : null,
+    "showSliderValue" : true,
+    "localizedScale" : null,
+    "options" : [ {
+      "text" : "Matkapuhelimen",
+      "id" : "1",
+      "min" : null,
+      "max" : null,
+      "image" : null,
+      "stats" : null
+    }, {
+      "text" : "Ystävän tai kaverin",
+      "id" : "2",
+      "min" : null,
+      "max" : null,
+      "image" : null,
+      "stats" : null
+    }, {
+      "text" : "Elämänkumppanin (vaimo, aviomies, poikaystävä, tyttöystävä, mitä näitä nyt on)",
+      "id" : "3",
+      "min" : null,
+      "max" : null,
+      "image" : null,
+      "stats" : null
+    }, {
+      "text" : "Työpaikan",
+      "id" : "4",
+      "min" : null,
+      "max" : null,
+      "image" : null,
+      "stats" : null
+    }, {
+      "text" : "Auton",
+      "id" : "5",
+      "min" : null,
+      "max" : null,
+      "image" : null,
+      "stats" : null
+    }, {
+      "text" : "Ajokortin",
+      "id" : "6",
+      "min" : null,
+      "max" : null,
+      "image" : null,
+      "stats" : null
+    }, {
+      "text" : "Talon",
+      "id" : "7",
+      "min" : null,
+      "max" : null,
+      "image" : null,
+      "stats" : null
+    }, {
+      "text" : "Sisäelimen",
+      "id" : "8",
+      "min" : null,
+      "max" : null,
+      "image" : null,
+      "stats" : null
+    }, {
+      "text" : "Itsetuntoni",
+      "id" : "9",
+      "min" : null,
+      "max" : null,
+      "image" : null,
+      "stats" : null
+    }, {
+      "text" : "Neitsyyteni",
+      "id" : "10",
+      "min" : null,
+      "max" : null,
+      "image" : null,
+      "stats" : null
+    } ]
+  }, {
+    "id" : "23",
+    "image" : null,
+    "question" : "Kuinka monta kertaa olet itkenyt viimeisen kolmen vuoden aikana?",
+    "questionMoreInfo" : "Muutamaa Top Gunia (Lentäjistä Parhaat) katsoessa päässyttä sentimentaalista kyyneltä ei lasketa.",
+    "type" : "SLIDER",
+    "countToResult" : true,
+    "showInStats" : true,
+    "showInTest" : true,
+    "min" : 0,
+    "max" : 300,
+    "initialValue" : null,
+    "minText" : null,
+    "maxText" : null,
+    "showSliderValue" : true,
+    "localizedScale" : null,
+    "options" : [ {
+      "text" : "0",
+      "id" : "1",
+      "min" : 0,
+      "max" : 0,
+      "image" : null,
+      "stats" : null
+    }, {
+      "text" : "1&ndash;2",
+      "id" : "2",
+      "min" : 1,
+      "max" : 2,
+      "image" : null,
+      "stats" : null
+    }, {
+      "text" : "3&ndash;8",
+      "id" : "3",
+      "min" : 3,
+      "max" : 8,
+      "image" : null,
+      "stats" : null
+    }, {
+      "text" : "9&ndash;25",
+      "id" : "4",
+      "min" : 9,
+      "max" : 25,
+      "image" : null,
+      "stats" : null
+    }, {
+      "text" : "25&ndash;50",
+      "id" : "5",
+      "min" : 25,
+      "max" : 50,
+      "image" : null,
+      "stats" : null
+    }, {
+      "text" : "50&ndash;100",
+      "id" : "6",
+      "min" : 50,
+      "max" : 100,
+      "image" : null,
+      "stats" : null
+    }, {
+      "text" : "100&ndash;200",
+      "id" : "7",
+      "min" : 100,
+      "max" : 200,
+      "image" : null,
+      "stats" : null
+    }, {
+      "text" : "200&ndash;300",
+      "id" : "8",
+      "min" : 200,
+      "max" : 300,
+      "image" : null,
+      "stats" : null
+    } ]
+  }, {
+    "id" : "22",
+    "image" : null,
+    "question" : "Aloitettuasi juomisen <b>tai</b> juomisesi lisäännyttyä sinusta on tullut...",
+    "questionMoreInfo" : null,
+    "type" : "MULTISELECT",
+    "countToResult" : true,
+    "showInStats" : true,
+    "showInTest" : true,
+    "min" : null,
+    "max" : null,
+    "initialValue" : null,
+    "minText" : null,
+    "maxText" : null,
+    "showSliderValue" : true,
+    "localizedScale" : null,
+    "options" : [ {
+      "text" : "Itsekkäämpi",
+      "id" : "1",
+      "min" : null,
+      "max" : null,
+      "image" : null,
+      "stats" : null
+    }, {
+      "text" : "Kärsimättömämpi tai levottomampi",
+      "id" : "2",
+      "min" : null,
+      "max" : null,
+      "image" : null,
+      "stats" : null
+    }, {
+      "text" : "Egoistisempi",
+      "id" : "3",
+      "min" : null,
+      "max" : null,
+      "image" : null,
+      "stats" : null
+    }, {
+      "text" : "Vaativampi",
+      "id" : "4",
+      "min" : null,
+      "max" : null,
+      "image" : null,
+      "stats" : null
+    }, {
+      "text" : "Ahdistuneempi",
+      "id" : "5",
+      "min" : null,
+      "max" : null,
+      "image" : null,
+      "stats" : null
+    }, {
+      "text" : "Itsetuhoisempi",
+      "id" : "6",
+      "min" : null,
+      "max" : null,
+      "image" : null,
+      "stats" : null
+    }, {
+      "text" : "Onnellisempi",
+      "id" : "7",
+      "min" : null,
+      "max" : null,
+      "image" : null,
+      "stats" : null
+    }, {
+      "text" : "Rakastavampi",
+      "id" : "8",
+      "min" : null,
+      "max" : null,
+      "image" : null,
+      "stats" : null
+    } ]
+  }, {
+    "id" : "20",
+    "image" : null,
+    "question" : "Minkä mittainen on pisin jakso tänä vuonna, jona <b>et ole ajatellut</b> alkoholia?",
+    "questionMoreInfo" : "Nukkumista ei lasketa.",
+    "type" : "RADIO",
+    "countToResult" : true,
+    "showInStats" : true,
+    "showInTest" : true,
+    "min" : null,
+    "max" : null,
+    "initialValue" : null,
+    "minText" : null,
+    "maxText" : null,
+    "showSliderValue" : true,
+    "localizedScale" : null,
+    "options" : [ {
+      "text" : "Alle tunti",
+      "id" : "1",
+      "min" : null,
+      "max" : null,
+      "image" : null,
+      "stats" : null
+    }, {
+      "text" : "Alle neljä (4) tuntia",
+      "id" : "2",
+      "min" : null,
+      "max" : null,
+      "image" : null,
+      "stats" : null
+    }, {
+      "text" : "Alle 24 tuntia",
+      "id" : "3",
+      "min" : null,
+      "max" : null,
+      "image" : null,
+      "stats" : null
+    }, {
+      "text" : "Alle kolme (3) päivää",
+      "id" : "4",
+      "min" : null,
+      "max" : null,
+      "image" : null,
+      "stats" : null
+    }, {
+      "text" : "Alle viikko",
+      "id" : "5",
+      "min" : null,
+      "max" : null,
+      "image" : null,
+      "stats" : null
+    }, {
+      "text" : "Yli viikon",
+      "id" : "6",
+      "min" : null,
+      "max" : null,
+      "image" : null,
+      "stats" : null
+    } ]
+  }, {
+    "id" : "21",
+    "image" : null,
+    "question" : "Minkä mittainen on pisin jakso tänä vuonna, jona <b>et ole ajatellut</b> elämässäsi sinulle tärkeintä ihmistä?",
+    "questionMoreInfo" : "Nukkumista ei lasketa.",
+    "type" : "RADIO",
+    "countToResult" : true,
+    "showInStats" : true,
+    "showInTest" : true,
+    "min" : null,
+    "max" : null,
+    "initialValue" : null,
+    "minText" : null,
+    "maxText" : null,
+    "showSliderValue" : true,
+    "localizedScale" : null,
+    "options" : [ {
+      "text" : "Alle tunti",
+      "id" : "1",
+      "min" : null,
+      "max" : null,
+      "image" : null,
+      "stats" : null
+    }, {
+      "text" : "Alle neljä (4) tuntia",
+      "id" : "2",
+      "min" : null,
+      "max" : null,
+      "image" : null,
+      "stats" : null
+    }, {
+      "text" : "Alle 24 tuntia",
+      "id" : "3",
+      "min" : null,
+      "max" : null,
+      "image" : null,
+      "stats" : null
+    }, {
+      "text" : "Alle kolme (3) päivää",
+      "id" : "4",
+      "min" : null,
+      "max" : null,
+      "image" : null,
+      "stats" : null
+    }, {
+      "text" : "Alle viikko",
+      "id" : "5",
+      "min" : null,
+      "max" : null,
+      "image" : null,
+      "stats" : null
+    }, {
+      "text" : "Yli viikon",
+      "id" : "6",
+      "min" : null,
+      "max" : null,
+      "image" : null,
+      "stats" : null
+    } ]
+  }, {
+    "id" : "24",
+    "image" : null,
+    "question" : "Olet noin tunnin päästä hauskassa sosiaalisessa \n    \t\ttapahtumassa, jossa on halpaa viinaa, ja jossa juodaan paljon. \n    \t\tTekeeko mieli vetää pohjia?",
+    "questionMoreInfo" : null,
+    "type" : "RADIO",
+    "countToResult" : true,
+    "showInStats" : true,
+    "showInTest" : true,
+    "min" : null,
+    "max" : null,
+    "initialValue" : null,
+    "minText" : null,
+    "maxText" : null,
+    "showSliderValue" : true,
+    "localizedScale" : null,
+    "options" : [ {
+      "text" : "Tunnen jännitystä, innostusta ja viinanhimoa, mutta maltan aloittaa juomisen\n      \tvasta yhdessä muiden kanssa.",
+      "id" : "1",
+      "min" : null,
+      "max" : null,
+      "image" : null,
+      "stats" : null
+    }, {
+      "text" : "Vedän kotona tai matkalla vähän pohjia.",
+      "id" : "2",
+      "min" : null,
+      "max" : null,
+      "image" : null,
+      "stats" : null
+    }, {
+      "text" : "Vedän kotona vähän pohjia, mutta olen silloin jo \n      \ttapahtumaan tulevien ystävieni seurassa sosiaalisessa \n      \tmediassa, joten en juo yksin.",
+      "id" : "3",
+      "min" : null,
+      "max" : null,
+      "image" : null,
+      "stats" : null
+    }, {
+      "text" : "En ymmärrä miksi tässä kysymyksessä oletetaan\n      \tettä pohjien vetäminen yksin olisi jotenkin väärin tai jotain mitä pitäisi välttää.",
+      "id" : "4",
+      "min" : null,
+      "max" : null,
+      "image" : null,
+      "stats" : null
+    }, {
+      "text" : "Minulla ei ole houkutuksia vetää pohjia ennen tapahtumaa.",
+      "id" : "5",
+      "min" : null,
+      "max" : null,
+      "image" : null,
+      "stats" : null
+    }, {
+      "text" : "Juon muutenkin koko ajan, joten ihan sama.",
+      "id" : "6",
+      "min" : null,
+      "max" : null,
+      "image" : null,
+      "stats" : null
+    } ]
+  }, {
+    "id" : "1000",
+    "image" : null,
+    "question" : "Minkä ikäinen olet?",
+    "questionMoreInfo" : null,
+    "type" : "SLIDER",
+    "countToResult" : false,
+    "showInStats" : false,
+    "showInTest" : true,
+    "min" : 7,
+    "max" : 100,
+    "initialValue" : null,
+    "minText" : null,
+    "maxText" : null,
+    "showSliderValue" : true,
+    "localizedScale" : null,
+    "options" : [ {
+      "text" : "7",
+      "id" : "7",
+      "min" : 7,
+      "max" : 7,
+      "image" : null,
+      "stats" : null
+    }, {
+      "text" : "8",
+      "id" : "8",
+      "min" : 8,
+      "max" : 8,
+      "image" : null,
+      "stats" : null
+    }, {
+      "text" : "9",
+      "id" : "9",
+      "min" : 9,
+      "max" : 9,
+      "image" : null,
+      "stats" : null
+    }, {
+      "text" : "10",
+      "id" : "10",
+      "min" : 10,
+      "max" : 10,
+      "image" : null,
+      "stats" : null
+    }, {
+      "text" : "11",
+      "id" : "11",
+      "min" : 11,
+      "max" : 11,
+      "image" : null,
+      "stats" : null
+    }, {
+      "text" : "12",
+      "id" : "12",
+      "min" : 12,
+      "max" : 12,
+      "image" : null,
+      "stats" : null
+    }, {
+      "text" : "13",
+      "id" : "13",
+      "min" : 13,
+      "max" : 13,
+      "image" : null,
+      "stats" : null
+    }, {
+      "text" : "14",
+      "id" : "14",
+      "min" : 14,
+      "max" : 14,
+      "image" : null,
+      "stats" : null
+    }, {
+      "text" : "15",
+      "id" : "15",
+      "min" : 15,
+      "max" : 15,
+      "image" : null,
+      "stats" : null
+    }, {
+      "text" : "16",
+      "id" : "16",
+      "min" : 16,
+      "max" : 16,
+      "image" : null,
+      "stats" : null
+    }, {
+      "text" : "17",
+      "id" : "17",
+      "min" : 17,
+      "max" : 17,
+      "image" : null,
+      "stats" : null
+    }, {
+      "text" : "18",
+      "id" : "18",
+      "min" : 18,
+      "max" : 18,
+      "image" : null,
+      "stats" : null
+    }, {
+      "text" : "19",
+      "id" : "19",
+      "min" : 19,
+      "max" : 19,
+      "image" : null,
+      "stats" : null
+    }, {
+      "text" : "20",
+      "id" : "20",
+      "min" : 20,
+      "max" : 20,
+      "image" : null,
+      "stats" : null
+    }, {
+      "text" : "21",
+      "id" : "21",
+      "min" : 21,
+      "max" : 21,
+      "image" : null,
+      "stats" : null
+    }, {
+      "text" : "22",
+      "id" : "22",
+      "min" : 22,
+      "max" : 22,
+      "image" : null,
+      "stats" : null
+    }, {
+      "text" : "23",
+      "id" : "23",
+      "min" : 23,
+      "max" : 23,
+      "image" : null,
+      "stats" : null
+    }, {
+      "text" : "24",
+      "id" : "24",
+      "min" : 24,
+      "max" : 24,
+      "image" : null,
+      "stats" : null
+    }, {
+      "text" : "25",
+      "id" : "25",
+      "min" : 25,
+      "max" : 25,
+      "image" : null,
+      "stats" : null
+    }, {
+      "text" : "26",
+      "id" : "26",
+      "min" : 26,
+      "max" : 26,
+      "image" : null,
+      "stats" : null
+    }, {
+      "text" : "27",
+      "id" : "27",
+      "min" : 27,
+      "max" : 27,
+      "image" : null,
+      "stats" : null
+    }, {
+      "text" : "28",
+      "id" : "28",
+      "min" : 28,
+      "max" : 28,
+      "image" : null,
+      "stats" : null
+    }, {
+      "text" : "29",
+      "id" : "29",
+      "min" : 29,
+      "max" : 29,
+      "image" : null,
+      "stats" : null
+    }, {
+      "text" : "30",
+      "id" : "30",
+      "min" : 30,
+      "max" : 30,
+      "image" : null,
+      "stats" : null
+    }, {
+      "text" : "31",
+      "id" : "31",
+      "min" : 31,
+      "max" : 31,
+      "image" : null,
+      "stats" : null
+    }, {
+      "text" : "32",
+      "id" : "32",
+      "min" : 32,
+      "max" : 32,
+      "image" : null,
+      "stats" : null
+    }, {
+      "text" : "33",
+      "id" : "33",
+      "min" : 33,
+      "max" : 33,
+      "image" : null,
+      "stats" : null
+    }, {
+      "text" : "34",
+      "id" : "34",
+      "min" : 34,
+      "max" : 34,
+      "image" : null,
+      "stats" : null
+    }, {
+      "text" : "35",
+      "id" : "35",
+      "min" : 35,
+      "max" : 35,
+      "image" : null,
+      "stats" : null
+    }, {
+      "text" : "36",
+      "id" : "36",
+      "min" : 36,
+      "max" : 36,
+      "image" : null,
+      "stats" : null
+    }, {
+      "text" : "37",
+      "id" : "37",
+      "min" : 37,
+      "max" : 37,
+      "image" : null,
+      "stats" : null
+    }, {
+      "text" : "38",
+      "id" : "38",
+      "min" : 38,
+      "max" : 38,
+      "image" : null,
+      "stats" : null
+    }, {
+      "text" : "39",
+      "id" : "39",
+      "min" : 39,
+      "max" : 39,
+      "image" : null,
+      "stats" : null
+    }, {
+      "text" : "40",
+      "id" : "40",
+      "min" : 40,
+      "max" : 40,
+      "image" : null,
+      "stats" : null
+    }, {
+      "text" : "41",
+      "id" : "41",
+      "min" : 41,
+      "max" : 41,
+      "image" : null,
+      "stats" : null
+    }, {
+      "text" : "42",
+      "id" : "42",
+      "min" : 42,
+      "max" : 42,
+      "image" : null,
+      "stats" : null
+    }, {
+      "text" : "43",
+      "id" : "43",
+      "min" : 43,
+      "max" : 43,
+      "image" : null,
+      "stats" : null
+    }, {
+      "text" : "44",
+      "id" : "44",
+      "min" : 44,
+      "max" : 44,
+      "image" : null,
+      "stats" : null
+    }, {
+      "text" : "45",
+      "id" : "45",
+      "min" : 45,
+      "max" : 45,
+      "image" : null,
+      "stats" : null
+    }, {
+      "text" : "46",
+      "id" : "46",
+      "min" : 46,
+      "max" : 46,
+      "image" : null,
+      "stats" : null
+    }, {
+      "text" : "47",
+      "id" : "47",
+      "min" : 47,
+      "max" : 47,
+      "image" : null,
+      "stats" : null
+    }, {
+      "text" : "48",
+      "id" : "48",
+      "min" : 48,
+      "max" : 48,
+      "image" : null,
+      "stats" : null
+    }, {
+      "text" : "49",
+      "id" : "49",
+      "min" : 49,
+      "max" : 49,
+      "image" : null,
+      "stats" : null
+    }, {
+      "text" : "50",
+      "id" : "50",
+      "min" : 50,
+      "max" : 50,
+      "image" : null,
+      "stats" : null
+    }, {
+      "text" : "51",
+      "id" : "51",
+      "min" : 51,
+      "max" : 51,
+      "image" : null,
+      "stats" : null
+    }, {
+      "text" : "52",
+      "id" : "52",
+      "min" : 52,
+      "max" : 52,
+      "image" : null,
+      "stats" : null
+    }, {
+      "text" : "53",
+      "id" : "53",
+      "min" : 53,
+      "max" : 53,
+      "image" : null,
+      "stats" : null
+    }, {
+      "text" : "54",
+      "id" : "54",
+      "min" : 54,
+      "max" : 54,
+      "image" : null,
+      "stats" : null
+    }, {
+      "text" : "55",
+      "id" : "55",
+      "min" : 55,
+      "max" : 55,
+      "image" : null,
+      "stats" : null
+    }, {
+      "text" : "56",
+      "id" : "56",
+      "min" : 56,
+      "max" : 56,
+      "image" : null,
+      "stats" : null
+    }, {
+      "text" : "57",
+      "id" : "57",
+      "min" : 57,
+      "max" : 57,
+      "image" : null,
+      "stats" : null
+    }, {
+      "text" : "58",
+      "id" : "58",
+      "min" : 58,
+      "max" : 58,
+      "image" : null,
+      "stats" : null
+    }, {
+      "text" : "59",
+      "id" : "59",
+      "min" : 59,
+      "max" : 59,
+      "image" : null,
+      "stats" : null
+    }, {
+      "text" : "60",
+      "id" : "60",
+      "min" : 60,
+      "max" : 60,
+      "image" : null,
+      "stats" : null
+    }, {
+      "text" : "61",
+      "id" : "61",
+      "min" : 61,
+      "max" : 61,
+      "image" : null,
+      "stats" : null
+    }, {
+      "text" : "62",
+      "id" : "62",
+      "min" : 62,
+      "max" : 62,
+      "image" : null,
+      "stats" : null
+    }, {
+      "text" : "63",
+      "id" : "63",
+      "min" : 63,
+      "max" : 63,
+      "image" : null,
+      "stats" : null
+    }, {
+      "text" : "64",
+      "id" : "64",
+      "min" : 64,
+      "max" : 64,
+      "image" : null,
+      "stats" : null
+    }, {
+      "text" : "65",
+      "id" : "65",
+      "min" : 65,
+      "max" : 65,
+      "image" : null,
+      "stats" : null
+    }, {
+      "text" : "66",
+      "id" : "66",
+      "min" : 66,
+      "max" : 66,
+      "image" : null,
+      "stats" : null
+    }, {
+      "text" : "67",
+      "id" : "67",
+      "min" : 67,
+      "max" : 67,
+      "image" : null,
+      "stats" : null
+    }, {
+      "text" : "68",
+      "id" : "68",
+      "min" : 68,
+      "max" : 68,
+      "image" : null,
+      "stats" : null
+    }, {
+      "text" : "69",
+      "id" : "69",
+      "min" : 69,
+      "max" : 69,
+      "image" : null,
+      "stats" : null
+    }, {
+      "text" : "70",
+      "id" : "70",
+      "min" : 70,
+      "max" : 70,
+      "image" : null,
+      "stats" : null
+    }, {
+      "text" : "71",
+      "id" : "71",
+      "min" : 71,
+      "max" : 71,
+      "image" : null,
+      "stats" : null
+    }, {
+      "text" : "72",
+      "id" : "72",
+      "min" : 72,
+      "max" : 72,
+      "image" : null,
+      "stats" : null
+    }, {
+      "text" : "73",
+      "id" : "73",
+      "min" : 73,
+      "max" : 73,
+      "image" : null,
+      "stats" : null
+    }, {
+      "text" : "74",
+      "id" : "74",
+      "min" : 74,
+      "max" : 74,
+      "image" : null,
+      "stats" : null
+    }, {
+      "text" : "75",
+      "id" : "75",
+      "min" : 75,
+      "max" : 75,
+      "image" : null,
+      "stats" : null
+    }, {
+      "text" : "76",
+      "id" : "76",
+      "min" : 76,
+      "max" : 76,
+      "image" : null,
+      "stats" : null
+    }, {
+      "text" : "77",
+      "id" : "77",
+      "min" : 77,
+      "max" : 77,
+      "image" : null,
+      "stats" : null
+    }, {
+      "text" : "78",
+      "id" : "78",
+      "min" : 78,
+      "max" : 78,
+      "image" : null,
+      "stats" : null
+    }, {
+      "text" : "79",
+      "id" : "79",
+      "min" : 79,
+      "max" : 79,
+      "image" : null,
+      "stats" : null
+    }, {
+      "text" : "80",
+      "id" : "80",
+      "min" : 80,
+      "max" : 80,
+      "image" : null,
+      "stats" : null
+    }, {
+      "text" : "81",
+      "id" : "81",
+      "min" : 81,
+      "max" : 81,
+      "image" : null,
+      "stats" : null
+    }, {
+      "text" : "82",
+      "id" : "82",
+      "min" : 82,
+      "max" : 82,
+      "image" : null,
+      "stats" : null
+    }, {
+      "text" : "83",
+      "id" : "83",
+      "min" : 83,
+      "max" : 83,
+      "image" : null,
+      "stats" : null
+    }, {
+      "text" : "84",
+      "id" : "84",
+      "min" : 84,
+      "max" : 84,
+      "image" : null,
+      "stats" : null
+    }, {
+      "text" : "85",
+      "id" : "85",
+      "min" : 85,
+      "max" : 85,
+      "image" : null,
+      "stats" : null
+    }, {
+      "text" : "86",
+      "id" : "86",
+      "min" : 86,
+      "max" : 86,
+      "image" : null,
+      "stats" : null
+    }, {
+      "text" : "87",
+      "id" : "87",
+      "min" : 87,
+      "max" : 87,
+      "image" : null,
+      "stats" : null
+    }, {
+      "text" : "88",
+      "id" : "88",
+      "min" : 88,
+      "max" : 88,
+      "image" : null,
+      "stats" : null
+    }, {
+      "text" : "89",
+      "id" : "89",
+      "min" : 89,
+      "max" : 89,
+      "image" : null,
+      "stats" : null
+    }, {
+      "text" : "90",
+      "id" : "90",
+      "min" : 90,
+      "max" : 90,
+      "image" : null,
+      "stats" : null
+    }, {
+      "text" : "91",
+      "id" : "91",
+      "min" : 91,
+      "max" : 91,
+      "image" : null,
+      "stats" : null
+    }, {
+      "text" : "92",
+      "id" : "92",
+      "min" : 92,
+      "max" : 92,
+      "image" : null,
+      "stats" : null
+    }, {
+      "text" : "93",
+      "id" : "93",
+      "min" : 93,
+      "max" : 93,
+      "image" : null,
+      "stats" : null
+    }, {
+      "text" : "94",
+      "id" : "94",
+      "min" : 94,
+      "max" : 94,
+      "image" : null,
+      "stats" : null
+    }, {
+      "text" : "95",
+      "id" : "95",
+      "min" : 95,
+      "max" : 95,
+      "image" : null,
+      "stats" : null
+    }, {
+      "text" : "96",
+      "id" : "96",
+      "min" : 96,
+      "max" : 96,
+      "image" : null,
+      "stats" : null
+    }, {
+      "text" : "97",
+      "id" : "97",
+      "min" : 97,
+      "max" : 97,
+      "image" : null,
+      "stats" : null
+    }, {
+      "text" : "98",
+      "id" : "98",
+      "min" : 98,
+      "max" : 98,
+      "image" : null,
+      "stats" : null
+    }, {
+      "text" : "99",
+      "id" : "99",
+      "min" : 99,
+      "max" : 99,
+      "image" : null,
+      "stats" : null
+    }, {
+      "text" : "100",
+      "id" : "100",
+      "min" : 100,
+      "max" : 100,
+      "image" : null,
+      "stats" : null
+    } ]
+  }, {
+    "id" : "1001",
+    "image" : null,
+    "question" : "Oletko mies vai nainen?",
+    "questionMoreInfo" : null,
+    "type" : "RADIO",
+    "countToResult" : false,
+    "showInStats" : false,
+    "showInTest" : true,
+    "min" : null,
+    "max" : null,
+    "initialValue" : null,
+    "minText" : null,
+    "maxText" : null,
+    "showSliderValue" : true,
+    "localizedScale" : null,
+    "options" : [ {
+      "text" : "Mies",
+      "id" : "1",
+      "min" : null,
+      "max" : null,
+      "image" : null,
+      "stats" : null
+    }, {
+      "text" : "Nainen",
+      "id" : "2",
+      "min" : null,
+      "max" : null,
+      "image" : null,
+      "stats" : null
+    }, {
+      "text" : "Molempia",
+      "id" : "3",
+      "min" : null,
+      "max" : null,
+      "image" : null,
+      "stats" : null
+    } ]
+  }, {
+    "id" : "17",
+    "image" : null,
+    "question" : "Onko tämän testin aikana alkanut tehdä mieli viinaa?",
+    "questionMoreInfo" : null,
+    "type" : "RADIO",
+    "countToResult" : true,
+    "showInStats" : true,
+    "showInTest" : true,
+    "min" : null,
+    "max" : null,
+    "initialValue" : null,
+    "minText" : null,
+    "maxText" : null,
+    "showSliderValue" : true,
+    "localizedScale" : null,
+    "options" : [ {
+      "text" : "Kyllä",
+      "id" : "1",
+      "min" : null,
+      "max" : null,
+      "image" : null,
+      "stats" : null
+    }, {
+      "text" : "Ei",
+      "id" : "2",
+      "min" : null,
+      "max" : null,
+      "image" : null,
+      "stats" : null
+    }, {
+      "text" : "Teki jo ennen testiä",
+      "id" : "3",
+      "min" : null,
+      "max" : null,
+      "image" : null,
+      "stats" : null
+    }, {
+      "text" : "Olen juonut tässä samalla",
+      "id" : "4",
+      "min" : null,
+      "max" : null,
+      "image" : null,
+      "stats" : null
+    }, {
+      "text" : "En enää ikinä juo viinaa",
+      "id" : "5",
+      "min" : null,
+      "max" : null,
+      "image" : null,
+      "stats" : null
+    } ]
+  } ],
+  "title" : "Hiipivä alkoholismi -testi",
+  "legacyDistItems" : null,
+  "legacyCount" : 0,
+  "legacyAverage" : 0.0,
+  "version" : "",
+  "showRdVersion" : "",
+  "countToRdVersion" : "",
+  "color" : "410f0e",
+  "simpleResultSuffix" : null,
+  "simpleResultPrefix" : null,
+  "customRdTitle" : null,
+  "twitterHashTags" : "creeping_alcoholism",
+  "resultCalculator" : null
+}
