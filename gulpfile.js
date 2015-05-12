@@ -20,22 +20,39 @@ gulp.task('default', ['clean'], function() {
 
 
 var metadata = require('./src/data/alcoholism-metadata.json').tasks.reduce(function(c, i) {
+	
+	if(i.type !== "MULTISELECT") {
 
 	c[i.id] = {
 		id: i.id,
-		title: parseTitle(i.question, i.id+"_"),
+		title: parseTitle(i.question, i.id+"_", null, i.id),
 		type: i.type,
 		options: i.options.reduce(function(cc, ii){
 			cc[ii.id] = parseTitle(ii.text)
 			return cc;
 		},{})
 	};
+	
+	}
 	return c;
 
 }, {})
 //console.log(metadata)
 
-function parseTitle(t, prefix, postfix) {
+function parseTitle(t, prefix, postfix, id) {
+	var fixed = {
+		"23": "cryCountThreeYears",
+		"15": "weeklyDrinks"
+	}
+	postfix = postfix ? postfix : ''
+	prefix = prefix ? prefix : ''
+
+	if(fixed[id]) {
+		return fixed[id]
+	}
+  
+
+
 	var max = 20;
 	t = t.toLowerCase().replace(/\s+/g,'_');
 	t = t.replace(/ä/g,'a');
@@ -43,8 +60,6 @@ function parseTitle(t, prefix, postfix) {
 	t = t.replace(/[^a-z0-9_]*/g, '')
 	if(t.length > max)
 		t = t.substring(0,max)
-	postfix = postfix ? postfix : ''
-	prefix = prefix ? prefix : ''
 
 	return prefix + t + postfix
 }
@@ -54,7 +69,7 @@ function transform(i) {
 		var q = metadata[qId]
 		i[q.title] = getValue(q, i.responses[qId])
 	}
-	delete i.responses
+	//delete i.responses
 
 }
 
@@ -64,8 +79,14 @@ function getValue(q, r) {
 	if(r === undefined || r === null) {
 		return null
 	}
+  if (q.id === "15")
+  {
+      return r.value / r.gramsPerDrink;
+  } 
+
+
 	if(r.value) {
-		return parseInt(r.value, 10)
+		return parseFloat(r.value, 10)
 	}
 	if(q.type === "RADIO" && r.optionId) {
 		option = q.options[r.optionId]
@@ -80,8 +101,17 @@ function getValue(q, r) {
 	return null;
 }
 
-function filter(i) {
-	return false;
+function filter(e) {
+	
+	if(e.age == 0)
+	 return true
+	if(e.cryCountThreeYears == 300)
+	 return true
+	if(e.weeklyDrinks == 0 || e.weeklyDrinks == 200)
+	 return true
+
+	return !(e.sex == 'f' || e.sex == 'm')
+
 }
 
 gulp.task('process', function() {
@@ -99,6 +129,28 @@ gulp.task('process', function() {
           	return c
 
           },[])
+
+
+      		for (var i = 0; i < newData.length; i++)
+          {
+                  var e = newData[i];
+
+
+                   if (e.responses["15"])
+                  {
+                          e.weeklyGrams = e.responses["15"].value;
+                          e.weeklyDrinks = e.responses["15"].value / e.gramsPerDrink;
+                  } else {
+                          e.weeklyGrams = null;
+                          e.weeklyDrinks = null; 
+                  }
+
+                  e.responses = null;
+
+          }
+
+
+
           //console.log(newData)
           
           file.path = file.path.replace(/-data/, "-data-processed")
